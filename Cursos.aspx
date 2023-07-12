@@ -11,7 +11,9 @@
         <p>Video 2. Porque necesitas una marca?</p>
         <img src="/Pictures/logos.png" width="300" height="200">
         <br><br/>
-        <p>Video 3. Que es un logo y como definirlo?</p>
-        <img src="/Pictures/img_girl.jpg" width="300" height="200">
+        <p>Video 3. Curso basico de interprete</p>
+        <iframe width="300" height="200"
+            src="https://www.youtube.com/embed/BB7Ds0KH78A">
+        </iframe>
     </main>
 </asp:Content>

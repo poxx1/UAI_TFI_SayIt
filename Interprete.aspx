@@ -19,6 +19,7 @@
             const sleep = ms => new Promise(r => setTimeout(r, ms));
 
             async function onButtonClick() {
+                document.getElementById("Button2").setAttribute("disabled", "disabled");
                 let str = document.getElementById("Text1").value;
                 str = str.replace(/\s/g, '');
                 for (var i = 0; i < str.length; i++) {
@@ -26,9 +27,11 @@
                     videoSource.src = '/Letters/' + str[i] + '-abc.mp4'
                     video.load();
                     video.play();
-                    await new Promise(r => setTimeout(r, 2000));
+                    await new Promise(r => setTimeout(r, 1200));
                     console.log(videoSource.src)
                 }
+                document.getElementById("Button2").removeAttribute("disabled");
+
             }
         </script>
     </main>

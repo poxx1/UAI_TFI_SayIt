@@ -172,6 +172,8 @@
     <Content Include="Letters\x-abc.mp4" />
     <Content Include="Letters\y-abc.mp4" />
     <Content Include="Letters\z-abc.mp4" />
+    <Content Include="Pictures\dilo.png" />
+    <Content Include="Pictures\favicon.ico" />
     <Content Include="Pictures\logos.png" />
     <Content Include="Pictures\mkt.png" />
     <Content Include="Pictures\uai.jpg" />
